@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    
+    <title>Hello, world!</title>
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand" href="#">
+<img src="matelas-icone.png" alt="logo matelas" style="width: 50%">
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">L'application <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Nos produits
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Matelas</a>
+          <a class="dropdown-item" href="#">Coussin</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Notre équipe</a>
+      </li>
+    </ul>
+
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-accent" data-toggle="modal" data-target="#exampleModal">
+  Connexion
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Connexion</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="form-inline my-2 my-lg-0">
+    </form>
+  </div>
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Adresse email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adresse email">
+    <small id="emailHelp" class="form-text text-muted">Nous ne partageons pas votre email.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Mot de passe</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Soumettre</button>
+</form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-primary">Enregistrer les modifications</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-info ml-2" data-toggle="modal" data-target="#exampleModal1">
+  Inscription
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">S'inscrire</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Mot de passe</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Mot de passe">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Addresse postale</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="12 rue Jean Jaurès">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Addresse postale 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="N° appartement, étage">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-4">
+      <label for="inputCity">Ville</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">Pays</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choisir...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputZip">Code postal</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Se souvenir de moi
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Se connecter</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-primary">Enregistrer les modifications</button>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>
+
+<img src="header.jpg" alt="" style="width: 100%">
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-center">
+    <h1 class="display-4">Votre lit connecté pour optimiser votre sommeil</h1>
+    <p class="lead" style="margin-top: 25px">Découvrez votre sommeil avec le lit connecté et suivez vos améliorations sur votre smartphone, grâce à l'application eDo.</p>
+    <button type="button" class="btn btn-accent width-lg" style="margin-top: 25px">Économisez-vous</button>
+  </div>
+</div>
+
+<div class="container">
+ <div class="row">
+      <div class="col-sm-2">
+      </div>
+    <div class="col-sm-3">
+      <img src="peluche.jpg" alt="" class="img-fluid">
+    </div>
+    <div class="col-sm-5">
+      <p class="lead">Savez-vous que nous passons environ 25 ans de notre vie à dormir ! Et pourtant, dans une vie à 100 à l'heure, notre sommeil est négligé. Nous avons ainsi imaginé un matelas pour ressourcer votre vie. Prêt à restaurer vos ressources ?</p>
+        <button type="button" class="btn btn-outline-info btn-lg">Votre lit de rêve</button>
+    </div>
+      <div class="col-sm-2">
+      </div>
+  </div>
+</div>
+
+<div class="container" style="margin-top: 100px">
+ <div class="row">
+      <div class="col-sm-2">
+      </div>
+  <div class="col-sm-5">
+      <h4> Suivez votre sommeil</h4>
+      <p class="lead">Récoltez les données de votre sommeil grâce à l'application E-Do. Désormais tout est possible !</p>
+        <button type="button" class="btn btn-outline-info btn-lg">Découvrez l'application</button>
+    </div>
+    <div class="col-sm-3">
+      <img src="app.jpg" alt="" class="img-fluid">
+    </div>
+     <div class="col-sm-2">
+      </div>
+  </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid" style="margin-top: 100px">
+  <div class="container text-center">
+    <h1 class="display-4">La technologie au service de votre bien-être</h1>
+    <p class="lead" style="margin-top: 25px">Découvrez votre sommeil avec le lit connecté et suivez vos améliorations sur votre smartphone, grâce à l'application eDo.</p>
+    <button type="button" class="btn btn-accent width-lg" style="margin-top: 25px">Économisez-vous</button>
+  </div>
+</div>
+</div>
+
+<div style="margin-top: 50px">
+  <img src="decoupe.jpg" alt="" style="width: 100%">
+
+
+<div class="container" style="text-align: center;">
+  <h4> Vous aimerez aussi !</h4> 
+ <div class="row" style="margin-top: 50px">
+    <div class="col-sm-3 ">
+      <a href="#">
+        <img src="sofa.jpg" class="product-grid img-fluid" alt="">
+      </a>
+    </div>
+    <div class="col-sm-3">
+      <a href="#">
+      <img src="lampe.jpg" alt="" class="product-grid img-fluid">
+      </a>
+
+    </div>
+    <div class="col-sm-3">
+         <a href="#">
+      <img src="oreillers.jpg" alt="" class="product-grid img-fluid">
+    </a>
+    </div>
+    <div class="col-sm-3">
+      <a href="#">
+      <img src="couette.jpg" alt="" class="product-grid img-fluid">
+    </a>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 100px">
+
+
+
+
+
+
+<hr>  
+
+<div class="container" style="margin-top: 50px">
+  <h4> On parle de nous !</h4>
+
+  <div class="row" style="margin-top: 50px">
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img src="M6.PNG" class="card-img-top" style="width: 40%"alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">"Une réelle innovation dans l'industrie du sommeil. e-Do a compris les enjeux du sommeil en France".</p>
+          <a href="#" class="btn btn-accent">Voir plus</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img src="elle.PNG" class="card-img-top" style="width: 40%; "alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">"Fascinant ! Nos testeuses sont tombées sous le charme d'e-Do. L'application est épurée, simple et indispensable !".</p>
+          <a href="#" class="btn btn-accent">Voir plus</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img src="TF1.PNG" class="card-img-top" style="width: 40%"alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">"E-DO c'est l'innovation pure. La nouvelle start up française a compris les consommateurs et propose une réelle nouveauté".</p>
+          <a href="#" class="btn btn-accent">Voir plus</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container" style="margin-top: 100px">
+  <h4> Retour expérience !</h4>
+  <div class="row" style="margin-top: 50px">
+    <div class="col-sm-4">
+      <img src="manon.jpg" class="card-img-top" style="width: 20%"alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>  
+           <p class="card-text">"S'interesser à son sommeil est indispensable. Grâce au lit, je dors mieux et je suis de meilleur humeur !".</p>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+      <img src="benoit.jpg" class="card-img-top" style="width: 20%"alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>  
+           <p class="card-text">"S'interesser à son sommeil est indispensable. Grâce au lit, je dors mieux et je suis de meilleur humeur !".</p>
+         </div>
+    </div>
+
+    <div class="col-sm-4">
+      <img src="mamita.jpg" class="card-img-top" style="width: 20%"  alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>  
+          <p class="card-text">"S'interesser à son sommeil est indispensable. Grâce au lit, je dors mieux et je suis de meilleur humeur !".</p>
+        </div>
+       </div>
+  </div>
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

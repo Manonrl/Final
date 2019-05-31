@@ -1,0 +1,23 @@
+.btn-accent{
+	background-color: #DEB841;
+	color: white;
+}
+.jumbotron {
+	background-color: #F4F9F2 !important;
+}
+h1,h4 {
+	font-family: 'Pacifico', cursive;
+}
+
+p{
+	font-family: 'Quicksand', sans-serif;
+}
+
+hr {
+	color:#F4F9F2;
+}
+
+.product-grid:hover {
+box-shadow: 60px -16px teal !important;
+
+}
