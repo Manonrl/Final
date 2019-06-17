@@ -8,16 +8,32 @@
 h1,h4 {
 	font-family: 'Pacifico', cursive;
 }
+h2{
+	font-family:'Pacifico',cursive;
+	color: #DEB841;
+}
 
 p{
 	font-family: 'Quicksand', sans-serif;
 }
 
 hr {
-	color:#F4F9F2;
+	color: #F4F9F2;
+}
+
+.product-grid{
+	margin:50px 15px;
+	height: 250px;
+	width: 100px !important;
+	color: #DEB841;
 }
 
 .product-grid:hover {
-box-shadow: 60px -16px teal !important;
+box-shadow: 1em -1em teal !important;
+transition: box-shadow 1s;
+}
 
+.card-background-img {
+	background-size: cover;
+	background-repeat: no-repeat;
 }
